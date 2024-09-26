@@ -17,22 +17,22 @@ Este proyecto utiliza las siguientes dependencias:
 1. **http**: Para realizar solicitudes HTTP.
 2. **dartz**: Para manejar errores y respuestas con la estructura `Either`.
 
-## Estructura del proyecto
-📦fake_store_api
- ┣ 📂lib
- ┃ ┣ 📂classes
- ┃ ┃ ┣ 📜address.dart            # Define la clase Address y Geolocation
- ┃ ┃ ┣ 📜category.dart           # Define la clase Category
- ┃ ┃ ┣ 📜name.dart               # Define la clase Name
- ┃ ┃ ┣ 📜product.dart            # Define la clase Product
- ┃ ┃ ┣ 📜user.dart               # Define la clase User
- ┃ ┣ 📂print_functions
- ┃ ┃ ┣ 📜print_categories.dart   # Funciones para imprimir categorías en consola
- ┃ ┃ ┣ 📜print_products.dart     # Funciones para imprimir productos en consola
- ┃ ┃ ┣ 📜print_users.dart        # Funciones para imprimir usuarios en consola
- ┃ ┗ 📜fake_store_api.dart       # Funciones para interactuar con la API (productos, categorías, usuarios)
- ┣ 📂bin
- ┃ ┗ 📜main.dart                 # Punto de entrada principal donde se ejecutan las funciones de la API
+fake_store_api/
+ ├── lib/
+ │   ├── classes/
+ │   │   ├── address.dart          # Define la clase Address y Geolocation
+ │   │   ├── category.dart         # Define la clase Category
+ │   │   ├── name.dart             # Define la clase Name
+ │   │   ├── product.dart          # Define la clase Product
+ │   │   ├── user.dart             # Define la clase User
+ │   ├── print_functions/
+ │   │   ├── print_categories.dart # Funciones para imprimir categorías en consola
+ │   │   ├── print_products.dart   # Funciones para imprimir productos en consola
+ │   │   ├── print_users.dart      # Funciones para imprimir usuarios en consola
+ │   ├── fake_store_api.dart       # Funciones para interactuar con la API (productos, categorías, usuarios)
+ ├── bin/
+ │   └── main.dart                 # Punto de entrada principal donde se ejecutan las funciones de la API
+
 
 ## Como ejecutar el proyecto
 - Navegue a la carpeta /bin y una vez ahí ejecute dart run .\main.dart
